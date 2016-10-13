@@ -1,0 +1,18 @@
+/*
+Theme Name: SuperMagExtended
+Theme URI: http://aldricgaudinot.com/supermag/
+Author: Aldric Gaudinot
+Author URI: http://aldricgaudinot.com/
+Description: SuperMag Extended Theme with custom types display
+Template: supermag
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: supermag-child
+Tags: orange, brown, yellow, dark, one-column, two-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+.bx-wrapper .bx-controls-direction a {
+    position: relative;
+}
