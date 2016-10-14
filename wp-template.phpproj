@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>wp-template</Name>
+    <ProjectGuid>{c126511f-7e50-48eb-9a4c-187b92b4d10e}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="supermag-child\archive-banque.php" />
+    <Compile Include="supermag-child\template-parts\content-banque.php" />
+    <Compile Include="supermag\acmethemes\core\js\customizer.js" />
+    <Compile Include="supermag\acmethemes\core\extras.php" />
+    <Compile Include="supermag\acmethemes\core\jetpack.php" />
+    <Compile Include="supermag\acmethemes\core\template-tags.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\background-image.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\blog-layout.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\colors-options.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\custom-css.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\default-layout.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\design-panel.php" />
+    <Compile Include="supermag\acmethemes\customizer\design-options\sidebar-layout.php" />
+    <Compile Include="supermag\acmethemes\customizer\feature-section\feature-category.php" />
+    <Compile Include="supermag\acmethemes\customizer\feature-section\feature-enable.php" />
+    <Compile Include="supermag\acmethemes\customizer\feature-section\feature-panel.php" />
+    <Compile Include="supermag\acmethemes\customizer\feature-section\feature-side.php" />
+    <Compile Include="supermag\acmethemes\customizer\footer-section\footer-section.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\ad-option.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\header-date.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\header-logo.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\header-news.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\header-panel.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\menu-option.php" />
+    <Compile Include="supermag\acmethemes\customizer\header-options\social-options.php" />
+    <Compile Include="supermag\acmethemes\customizer\options\breadcrumb.php" />
+    <Compile Include="supermag\acmethemes\customizer\options\options-panel.php" />
+    <Compile Include="supermag\acmethemes\customizer\options\options-reset.php" />
+    <Compile Include="supermag\acmethemes\customizer\options\search.php" />
+    <Compile Include="supermag\acmethemes\customizer\single-posts\single-post-section.php" />
+    <Compile Include="supermag\acmethemes\customizer\custom-controls.php" />
+    <Compile Include="supermag\acmethemes\customizer\customizer-core.php" />
+    <Compile Include="supermag\acmethemes\customizer\customizer.php" />
+    <Compile Include="supermag\acmethemes\customizer\sanitize-functions.php" />
+    <Compile Include="supermag\acmethemes\hooks\comment-forms.php" />
+    <Compile Include="supermag\acmethemes\hooks\dynamic-css.php" />
+    <Compile Include="supermag\acmethemes\hooks\excerpts.php" />
+    <Compile Include="supermag\acmethemes\hooks\footer.php" />
+    <Compile Include="supermag\acmethemes\hooks\front-page.php" />
+    <Compile Include="supermag\acmethemes\hooks\header.php" />
+    <Compile Include="supermag\acmethemes\hooks\related-posts.php" />
+    <Compile Include="supermag\acmethemes\hooks\slider-selection.php" />
+    <Compile Include="supermag\acmethemes\hooks\slider-side.php" />
+    <Compile Include="supermag\acmethemes\hooks\social-links.php" />
+    <Compile Include="supermag\acmethemes\sidebar-widget\acme-ad.php" />
+    <Compile Include="supermag\acmethemes\sidebar-widget\acme-col-posts.php" />
+    <Compile Include="supermag\acmethemes\sidebar-widget\sidebar.php" />
+    <Compile Include="supermag\acmethemes\core.php" />
+    <Compile Include="supermag\acmethemes\functions.php" />
+    <Compile Include="supermag\acmethemes\init.php" />
+    <Compile Include="supermag\assets\css\supermag-customizer.css" />
+    <Compile Include="supermag\assets\img\no-image-240-172.png" />
+    <Compile Include="supermag\assets\img\no-image-500-280.png" />
+    <Compile Include="supermag\assets\img\no-image-660-365.png" />
+    <Compile Include="supermag\assets\img\no-image-840-480.png" />
+    <Compile Include="supermag\assets\img\supermag-add-1-240-172.png" />
+    <Compile Include="supermag\assets\img\supermag-add-2-240-172.png" />
+    <Compile Include="supermag\assets\img\supermag-banner-add.png" />
+    <Compile Include="supermag\assets\img\supermag.png" />
+    <Compile Include="supermag\assets\js\acme-widget.js" />
+    <Compile Include="supermag\assets\js\supermag-custom.js" />
+    <Compile Include="supermag\assets\js\supermag-customizer.js" />
+    <Compile Include="supermag\assets\library\bxslider\css\jquery.bxslider.css" />
+    <Compile Include="supermag\assets\library\bxslider\css\jquery.bxslider.min.css" />
+    <Compile Include="supermag\assets\library\bxslider\images\bx_loader.gif" />
+    <Compile Include="supermag\assets\library\bxslider\images\controls.png" />
+    <Compile Include="supermag\assets\library\bxslider\js\jquery.bxslider.js" />
+    <Compile Include="supermag\assets\library\bxslider\js\jquery.bxslider.min.js" />
+    <Compile Include="supermag\assets\library\Font-Awesome\css\font-awesome.css" />
+    <Compile Include="supermag\assets\library\Font-Awesome\css\font-awesome.min.css" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\fontawesome-webfont.eot" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\fontawesome-webfont.svg" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\fontawesome-webfont.ttf" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\fontawesome-webfont.woff" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\fontawesome-webfont.woff2" />
+    <Compile Include="supermag\assets\library\Font-Awesome\fonts\FontAwesome.otf" />
+    <Compile Include="supermag\assets\library\html5shiv\html5shiv.js" />
+    <Compile Include="supermag\assets\library\html5shiv\html5shiv.min.js" />
+    <Compile Include="supermag\assets\library\respond\respond.js" />
+    <Compile Include="supermag\assets\library\respond\respond.min.js" />
+    <Compile Include="supermag\languages\supermag.pot" />
+    <Compile Include="supermag\template-parts\content-none.php" />
+    <Compile Include="supermag\template-parts\content-page.php" />
+    <Compile Include="supermag\template-parts\content-search.php" />
+    <Compile Include="supermag\template-parts\content-single.php" />
+    <Compile Include="supermag\template-parts\content.php" />
+    <Compile Include="supermag\404.php" />
+    <Compile Include="supermag\archive.php" />
+    <Compile Include="supermag\changelog.txt" />
+    <Compile Include="supermag\comments.php" />
+    <Compile Include="supermag\footer.php" />
+    <Compile Include="supermag\front-page.php" />
+    <Compile Include="supermag\functions.php" />
+    <Compile Include="supermag\header.php" />
+    <Compile Include="supermag\index.php" />
+    <Compile Include="supermag\page.php" />
+    <Compile Include="supermag\readme.txt" />
+    <Compile Include="supermag\screenshot.jpg" />
+    <Compile Include="supermag\search.php" />
+    <Compile Include="supermag\searchform.php" />
+    <Compile Include="supermag\sidebar-left.php" />
+    <Compile Include="supermag\sidebar.php" />
+    <Compile Include="supermag\single.php" />
+    <Compile Include="supermag\style.css" />
+    <Compile Include="supermag-child\functions.php" />
+    <Compile Include="supermag-child\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="supermag-child\template-parts\" />
+    <Folder Include="supermag\acmethemes\core\js" />
+    <Folder Include="supermag\acmethemes\core" />
+    <Folder Include="supermag\acmethemes\customizer\design-options" />
+    <Folder Include="supermag\acmethemes\customizer\feature-section" />
+    <Folder Include="supermag\acmethemes\customizer\footer-section" />
+    <Folder Include="supermag\acmethemes\customizer\header-options" />
+    <Folder Include="supermag\acmethemes\customizer\options" />
+    <Folder Include="supermag\acmethemes\customizer\single-posts" />
+    <Folder Include="supermag\acmethemes\customizer" />
+    <Folder Include="supermag\acmethemes\hooks" />
+    <Folder Include="supermag\acmethemes\sidebar-widget" />
+    <Folder Include="supermag\acmethemes" />
+    <Folder Include="supermag\assets\css" />
+    <Folder Include="supermag\assets\img" />
+    <Folder Include="supermag\assets\js" />
+    <Folder Include="supermag\assets\library\bxslider\css" />
+    <Folder Include="supermag\assets\library\bxslider\images" />
+    <Folder Include="supermag\assets\library\bxslider\js" />
+    <Folder Include="supermag\assets\library\bxslider" />
+    <Folder Include="supermag\assets\library\Font-Awesome\css" />
+    <Folder Include="supermag\assets\library\Font-Awesome\fonts" />
+    <Folder Include="supermag\assets\library\Font-Awesome" />
+    <Folder Include="supermag\assets\library\html5shiv" />
+    <Folder Include="supermag\assets\library\respond" />
+    <Folder Include="supermag\assets\library" />
+    <Folder Include="supermag\assets" />
+    <Folder Include="supermag\languages" />
+    <Folder Include="supermag\template-parts" />
+    <Folder Include="supermag" />
+    <Folder Include="supermag-child" />
+  </ItemGroup>
+</Project>
